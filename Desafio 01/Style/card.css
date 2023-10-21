@@ -1,16 +1,23 @@
 /*Reset das configs do navegador*/
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI',sans-serif;
 }
 
+h1{
+    margin: 20px;
+}
+.container{
+    margin: 18px;
+}
 .card {
     width: 850px;
     border: 1px solid gray;
     display: flex;
     flex-direction: row;
+    margin-left: 23px;
     box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
@@ -39,4 +46,10 @@
 .cardLeft > p{
     color: rgb(83, 83, 83);
 }
-
+.cardRight{
+    padding-right: 2px;
+    padding-top: 2px;
+}
+img{
+    width: 275px;
+}
