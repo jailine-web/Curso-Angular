@@ -22,11 +22,14 @@ class CardNews extends HTMLElement{
 
         const titulo = document.createElement("a");
         titulo.textContent = this.getAttribute("titulo");
+        titulo.href = this.getAttribute("url-titulo");
 
         const conteudo = document.createElement("p");
         conteudo.textContent = this.getAttribute("conteudo");
 
         const imagem = document.createElement("img");
+        imagem.src = this.getAttribute("foto") || "assets/foto padrao.jpg";
+        imagem.alt = "Foto do Darth Vader"
 
         componentRoot.appendChild(cardLeft);
         componentRoot.appendChild(cardRight);
