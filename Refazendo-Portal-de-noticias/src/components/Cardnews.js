@@ -44,7 +44,59 @@ class CardNews extends HTMLElement{
     }
 
     styles(){
-
+        const style = document.createElement("style");
+        style.textContent =
+        `
+        h1{
+            margin: 20px;
+        }
+        .container{
+            margin: 18px;
+        }
+        .card {
+            width: 850px;
+            border: 1px solid gray;
+            display: flex;
+            padding: 3px;
+            margin: 18px;
+            flex-direction: row;
+            margin-left: 23px;
+            box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
+            justify-content: space-between;
+           
+        }
+        
+        .cardLeft > span{
+            font-weight: 400;
+        }
+        
+        .cardLeft{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            padding-left: 10px; 
+        }
+        
+        .cardLeft > a{
+            margin-top: 15px;
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .cardLeft > p{
+            color: rgb(83, 83, 83);
+        }
+        .cardRight{
+            padding-right: 2px;
+            padding-top: 2px;
+        }
+        img{
+            width: 275px;
+        }`;
+        return style;
     }
 }
 
