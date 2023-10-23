@@ -18,8 +18,13 @@ class CardNews extends HTMLElement{
         cardRight.setAttribute("class", "cardRight")
 
         const autor = document.createElement("span");
+        autor.textContent = "Por: " + (this.getAttribute("autor") || "Anônimo");
+
         const titulo = document.createElement("a");
+        titulo.textContent = this.getAttribute("titulo");
+
         const conteudo = document.createElement("p");
+        conteudo.textContent = this.getAttribute("conteudo");
 
         const imagem = document.createElement("img");
 
