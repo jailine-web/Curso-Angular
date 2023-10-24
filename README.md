@@ -1,6 +1,6 @@
 # Curso sobre o universo Angular 📚 👩🏻‍💻
-## Curso completo sobre os fundamentos e aplicações do framework Angular, iniciando pela sua base.
-### Curso ministrado pelo: Felipe Aguiar 👨🏻‍🏫
+### Curso completo sobre os fundamentos e aplicações do framework Angular, iniciando pela sua base.
+#### Curso ministrado pelo: Felipe Aguiar 👨🏻‍🏫
 
 ### Sobre o curso 📜
 
