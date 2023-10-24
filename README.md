@@ -26,3 +26,7 @@ explicado de maneira detalhada o funcionamento do AngularJS.
   //Instala o typescript localmente no projeto
   npm install typescript -D
 ```
+```bash
+  //Transforma um arquivo com extensão ts em js 
+  npx tsc caminho_do_arquivo_ts
+```
