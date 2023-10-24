@@ -15,7 +15,7 @@ explicado de maneira detalhada o funcionamento do AngularJS.
   * Node
 
 ## Instalando o typescript localmente 📥
-#### comandos:
+### comandos:
 
 ```bash
   //Cria um projeto node na raiz d0 projeto : package.json
@@ -35,12 +35,12 @@ explicado de maneira detalhada o funcionamento do AngularJS.
   npx tsc --init
 ```
 ```json
-  //Campos editados: comando que passa a pasta onde o tsconfig deve acessar para fazer as alterações --> pasta src
-  "rootDir": "./nome_da_pasta
+  /* Campos editados: comando que passa a pasta onde o tsconfig deve acessar para fazer as alterações --> pasta src */
+  "rootDir": "./nome_da_pasta"
 ```
 ```json
-  // Define a pasta de saída --> build
-  "outDir": "./nome_da_pasta
+  /* Define a pasta de saída --> build */
+  "outDir": "./nome_da_pasta"
 ```
 ```bash
   //Comando que aciona as coonfigurações do tsconfig
