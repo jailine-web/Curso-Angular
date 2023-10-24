@@ -1,9 +1,20 @@
 # Curso sobre o universo Angular 📚 👩🏻‍💻
+## Curso completo sobre os fundamentos e aplicações do framework Angular, iniciando pela sua base.
+### Curso ministrado pelo: Felipe Aguiar 👨🏻‍🏫
 
-### Curso completo sobre os fundamentos e aplicações do framework Angular, iniciando pela sua base.
-### O curso aborda conceitos de estruturação de páginas web, sua estilização e a criação de web components.
+### Sobre o curso 📜
 
-## Instalando o typescript localmente
+O curso tem o intuito de abordar conceitos fundamentais do Angular de maneira completa e detalhada de forma lúdica, 
+e para uma melhor compreenssão do framework há uma breve apresentação de: HTML, CSS, JS e TS. O curso discute 
+conceitos de estruturação de páginas webs, estilização, e o desenvolvimento de web components. Além disso, é 
+explicado de maneira detalhada o funcionamento do AngularJS.  
+
+### Ferramentas 🛠️
+
+  * Visual Studio Code
+  * Node
+
+## Instalando o typescript localmente 📥
 #### comandos:
 
 ```bash
