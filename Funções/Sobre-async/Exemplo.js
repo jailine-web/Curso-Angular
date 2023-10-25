@@ -9,10 +9,10 @@ function primeiraFuncao(){
     )
 }
 
-function segundaFuncao(){
+async function segundaFuncao(){
     console.log('Iniciou');
 
-    primeiraFuncao();
+     await primeiraFuncao();
 
     console.log('Terminou')
 }
