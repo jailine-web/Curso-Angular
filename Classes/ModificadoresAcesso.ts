@@ -6,13 +6,14 @@
  * protected os atributos só podem ser acessados pela própria classe ou pelas classes filhas(subclasses)
  */
 
-class Chacacter{
+//Superclasse - superclass
+class Chacacter {
 
     private name?: string;
     protected stregth: number;
     public skill: number;
 
-    constructor(name:string,stregth:number, skill: number){
+    constructor(name:string, stregth:number, skill: number){
         this.name = name;
         this.stregth = stregth;
         this.skill = skill;
@@ -24,7 +25,24 @@ class Chacacter{
 
 }
 
+//Subclasse - Subclass
+class Magician extends Chacacter{
+    
+    magicPoints: number;
+    
+    constructor(name:string,stregth:number, skill: number, magicPoints: number){
+        super(name, stregth, skill)
+        this.magicPoints = magicPoints;
+        /**O acesso é permitido
+         * this.stregth; 
+         */
+    }
+}
+
 const p1 = new Chacacter("Ryu", 10, 78);
 //único acesso possível
 p1.skill
+const p2 = new Magician("Mago", 9 ,30, 99);
+
+
 
