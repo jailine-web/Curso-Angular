@@ -37,9 +37,14 @@ function getUser(cep){
 
 async function mostrarNomeDoUsuario(cep){
 
-    const user = await getUser(cep);
+    try {
+        const user = await getUser(cep);
+        console.log("Informações do cep: ", user);
+        
+    } catch (error) {
+        console.log(error);
+    }
     
-   console.log("Informações do cep: ", user);
     
 }
 
