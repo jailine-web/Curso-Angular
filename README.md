@@ -50,3 +50,15 @@ explicado de maneira detalhada o funcionamento do AngularJS.
   //Comando que roda a aplicação depois da junção dos comandos npx tsc && node
   npm run start
 ```
+```bash
+  //Comando que instala o servidor local de TS
+  npm install ts-node-dev -D
+```
+```bash
+  //Comando para rodar o servidor "start:dev"
+  npm run comando_configurado_no_package.json
+```
+
+
+
+
