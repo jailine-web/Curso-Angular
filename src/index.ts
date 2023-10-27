@@ -1,14 +1,15 @@
-type Heroi ={
-    nome: string;
-    vulgo: string
+//Decorators
+function ExibirQuemChamou(target: any){
+    console.log(target);
 }
- function imprimirObjetos(pessoa: Heroi){
-    console.log(pessoa);
- }
 
- imprimirObjetos({
-    nome: "Bruce",
-    vulgo: "Batman"
- })
+@ExibirQuemChamou
+class Funcionario{
 
-console.log("Olá mundo!")
+}
+@ExibirQuemChamou
+class Empregador{
+
+}
+
+
